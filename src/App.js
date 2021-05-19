@@ -265,7 +265,9 @@ function App() {
           </div>
         </div>
         
-{*/ <div className="container">
+{/*   THIS WAS OLD CODE THAT YOU SHOULD EVENTUALLY DELETE
+
+<div className="container">
           <h2>Transaction Notifications with Notify.js</h2>
           <div
             style={{
