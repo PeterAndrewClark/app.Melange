@@ -265,9 +265,8 @@ function App() {
           </div>
         </div>
         
-{/*   THIS WAS OLD CODE THAT YOU SHOULD EVENTUALLY DELETE
 
-<div className="container">
+<div className="container hide">
           <h2>Transaction Notifications with Notify.js</h2>
           <div
             style={{
@@ -493,7 +492,7 @@ function App() {
           >
             Bottom
           </button>
-        </div> */}
+        </div> 
 
       </section>
       
