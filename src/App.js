@@ -493,8 +493,10 @@ function App() {
           >
             Bottom
           </button>
-        </div>
+        </div> */}
+
       </section>
+      
       <div
         style={{
           display: "flex",
@@ -515,7 +517,7 @@ function App() {
           Notify.js version:{" "}
           <i>{staging ? "NEXT" : dependencies["bnc-notify"].slice(1)}</i>
         </span>
-      </div> */}
+      </div> 
       
     </main>
   ) : (
