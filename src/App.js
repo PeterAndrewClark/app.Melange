@@ -219,7 +219,7 @@ function App() {
       </header>
       <section className="main">
         <div className="container">
-          <h2>Onboarding Users with Onboard.js</h2>
+          <h2>Pick a fucking wallet</h2>
           <div>
             {!wallet.provider && (
               <button
@@ -264,7 +264,8 @@ function App() {
             )}
           </div>
         </div>
-        <div className="container">
+        
+{*/ <div className="container">
           <h2>Transaction Notifications with Notify.js</h2>
           <div
             style={{
@@ -512,7 +513,8 @@ function App() {
           Notify.js version:{" "}
           <i>{staging ? "NEXT" : dependencies["bnc-notify"].slice(1)}</i>
         </span>
-      </div>
+      </div> */}
+      
     </main>
   ) : (
     <div>Loading...</div>
