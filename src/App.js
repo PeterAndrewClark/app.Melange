@@ -208,7 +208,7 @@ function App() {
 
   return onboard && notify ? (
     <main>
-      <header className="user-info">
+      <header className="user-info hide">
         {address && <span>{address}</span>}
         {balance != null && (
           <span>
@@ -380,7 +380,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="container">
+        <div className="container hide">
           <h3>UI Settings</h3>
           <button
             className="bn-demo-button"
